@@ -291,8 +291,23 @@ body::selection{
 }
 
 .photo-frame{
-    position:relative;
-    overflow:hidden;
+  width:380px;
+  height:380px;
+
+  margin:auto;
+
+  position:relative;
+  overflow:hidden;
+
+  border-radius:50%;
+
+  border:4px solid rgba(56,189,248,.35);
+
+  background:var(--bg-soft);
+
+  box-shadow:
+    0 0 0 10px rgba(56,189,248,.05),
+    0 20px 60px rgba(56,189,248,.25);
 }
 
 .photo-frame::before{
@@ -335,13 +350,9 @@ body::selection{
 
 .floating-card.top{
   top:-20px;
-  left:-84px;
+  left:-04px;
 }
 
-.floating-card.bottom{
-  right:-130px;
-  bottom:-64px;
-}
 
 .floating-card i{
   display:inline-block;
