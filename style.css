@@ -579,8 +579,8 @@ body::selection{
 .timeline-content::before{
   content:"";
   position:absolute;
-  left:-38px;
-  top:34px;
+  left:-33px;
+  top:px;
   width:12px;
   height:12px;
   border-radius:50%;
@@ -805,9 +805,10 @@ body::selection{
     grid-template-columns:1fr;
   }
 
-  .timeline::before{
-    left:8px;
-  }
+ .timeline::before{
+  left:160px;
+}
+
 
   .timeline-item{
     grid-template-columns:1fr;
@@ -816,11 +817,11 @@ body::selection{
   }
 
   .timeline-date{
-    padding-top:0;
-  }
+  padding-top:0;
+}
 
   .timeline-content::before{
-    left:-32px;
+    left:-33px;
   }
 }
 
